@@ -37,6 +37,32 @@ body {
   border-bottom: 1px #ddd solid;
 }
 
+#authors {
+  img {
+    margin-top: -50px;
+
+  }
+  h3 {
+    color: $primary;
+  }
+  .fab {
+    color: $primary;
+
+  }
+  // h3:hover {
+  //   color: white;
+  // }
+  .card:hover {
+    background: $primary;
+    color: white;
+    h3, .fab  {
+      color: white;
+    
+    }
+  }
+}
+
+
 // MEDIA QUERIES
 
 @media(max-width: 768px) {
